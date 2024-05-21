@@ -11,7 +11,7 @@ jobs:
       - uses: octokit/request-action@v2.x
         id: get_latest_release
         with:
-          route: GET /repos/altinocoelho/altinocoelho.github.io/releases/latest
+          route: GET /repos/ethereum/ethereum-org-website/releases/latest
           owner: octokit
           repo: request-action
         env:
